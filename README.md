@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Selamat Datang di Docker Cheatsheet
 
-You can use the [editor on GitHub](https://github.com/LuckyWirasakti/docker-cheat-sheet/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Halaman ini diterbitkan sebagai catatan kombinasi perintah umum yang digunakan pada lingkungan kerja kontainer docker, siapapun bebas untuk berkontribusi dalam proyek ini jika berkenan.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### BUILD
 
-### Markdown
+Membuat image dari dockerfile disertai dengan nama image dan tag.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    docker build -t image-name:tag .
 
-```markdown
-Syntax highlighted code block
+### RUN
 
-# Header 1
-## Header 2
-### Header 3
+Membuat container disertai dengan nama image, penerusan local port, bind volume container to host, dan network name
 
-- Bulleted
-- List
+    docker run -it -p port-expose:port-local --name container-name -v "$(pwd)/:/workdir/" --network network-name .
 
-1. Numbered
-2. List
+Menjalankan container 
 
-**Bold** and _Italic_ and `Code` text
+    docker start container-name
+    
+Memulai ulang container
 
-[Link](url) and ![Image](src)
-```
+    docker restart container-name
+    
+Menghentikan container
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    docker exec -it container-name bash
 
-### Jekyll Themes
+### Thanks to
+- [Docker](http://docker.com/)
+- Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LuckyWirasakti/docker-cheat-sheet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Anda dapat menghubungi saya melalui email [```lucky.wirasakti@icloud.com```](mailto:lucky.wirasakti@icloud.com)
