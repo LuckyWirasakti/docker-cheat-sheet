@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
-title: null
-description: null
+title: false
+description: false
 logo: ./asset/docker.png
