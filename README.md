@@ -26,10 +26,10 @@ Menghentikan container
 
     docker exec -it container-name bash
 
-### Thanks to
+### TERIMA KASIH
 - [Docker](http://docker.com/)
 - Jekyll Themes
 
 
-### Support or Contact
+### HUBUNGI KAMI
 Anda dapat menghubungi saya melalui email [```lucky.wirasakti@icloud.com```](mailto:lucky.wirasakti@icloud.com)
