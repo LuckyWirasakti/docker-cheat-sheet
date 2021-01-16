@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: docker cheat sheet
 description: catatan perintah umum untuk penggunaan docker
-show_downloads: true
+show_downloads: false
 logo: ./asset/docker.png
