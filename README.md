@@ -38,10 +38,10 @@ Menghapus container
 
     docker container rm container-name // --force jika hapus container berjalan
 
-### TERIMA KASIH
+### THANKS TO
 - [Docker](http://docker.com/)
 - Jekyll Themes
 
 
-### HUBUNGI KAMI
+### CONTACT AND SUPPORT
 Anda dapat menghubungi saya melalui email [```lucky.wirasakti@icloud.com```](mailto:lucky.wirasakti@icloud.com)
