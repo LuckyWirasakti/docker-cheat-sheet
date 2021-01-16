@@ -1,4 +1,2 @@
 theme: jekyll-theme-minimal
-description: catatan perintah umum untuk penggunaan docker
-show_downloads: false
 logo: ./asset/docker.png
