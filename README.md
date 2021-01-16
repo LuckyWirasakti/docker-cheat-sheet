@@ -26,6 +26,18 @@ Menghentikan container
 
     docker exec -it container-name bash
 
+Menampilkan semua image
+
+    docker images
+
+Menampilkan semua container
+
+    docker container ls --all // docker ps
+
+Menghapus container 
+
+    docker container rm container-name // --force jika hapus container berjalan
+
 ### TERIMA KASIH
 - [Docker](http://docker.com/)
 - Jekyll Themes
