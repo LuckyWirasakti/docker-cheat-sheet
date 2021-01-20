@@ -22,6 +22,8 @@ Memulai ulang container
 
     docker restart container-name
     
+### COMMON COMMAND
+
 Menghentikan container
 
     docker exec -it container-name bash
