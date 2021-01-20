@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: DOCKER
-show_downloads: false
+show_downloads: true
 logo: ./asset/docker.png
