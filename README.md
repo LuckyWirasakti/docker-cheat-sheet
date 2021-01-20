@@ -46,6 +46,7 @@ Menghentikan semua container berjalan
 
 ### EXAMPLE
 - [Laravel](./docker/laravel/example.md)
+- [Django](./docker/django/example.md)
 
 
 ### THANKS TO
