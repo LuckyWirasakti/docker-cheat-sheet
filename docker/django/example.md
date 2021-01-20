@@ -4,7 +4,7 @@
 ### Dockerfile
 
     FROM python:3.8.7
-    LABEL maintainer="lucky.adhikrisna@erasysconsulting.com"
+    LABEL maintainer="lucky.wirasakti@icloud.com"
 
     # env var
     ENV PYTHONUNBUFFERED=1
@@ -29,7 +29,7 @@
 ### docker-compose.yml
 
     version: "3.7"
-    
+
     services:
         core-database:
             image: mysql:5.7.32
