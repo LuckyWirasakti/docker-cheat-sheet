@@ -38,6 +38,10 @@ Menghapus container
 
     docker container rm container-name // --force jika hapus container berjalan
 
+Menghentikan semua container berjalan
+
+    docker stop $(docker ps -aq)
+
 ### THANKS TO
 - [Docker](http://docker.com/)
 - Jekyll Themes
